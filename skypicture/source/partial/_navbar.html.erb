@@ -1,0 +1,28 @@
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <%= image_tag "logo2.png", class: "logo-navbar"%>
+      <%= link_to "SKYPICTURE", "home.html.erb", class: "navbar-brand" %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapsable">
+      <ul class="nav navbar-nav foo navbar-right" id="menu">
+        <li class="active">
+         <%= link_to "Home", "home.html.erb" %>
+        </li>
+        <li>
+          <%= link_to "About us", "about-us.html.erb" %>
+        </li>
+        <li>
+          <%= link_to "Domaines de d'applications", "activite.html.erb" %>
+        </li>
+        <li>
+          <%= link_to "Nos réalisations", "video.html.erb" %>
+        </li>
+        <li>
+          <%= link_to "Contact", "contact.html.erb"%>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+

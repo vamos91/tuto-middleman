@@ -9,9 +9,9 @@
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="#{current_page.data.description}">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title ? current_page.data.title : data.settings.site.title %></title>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
@@ -25,8 +25,8 @@
   </head>
 
   <body class="<%= page_classes %>">
-
+<%= partial "partial/navbar" %>
     <%= yield %>
-
+<%= partial "partial/footer" %>
   </body>
 </html>

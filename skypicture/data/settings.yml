@@ -1,0 +1,34 @@
+site:
+  title: skypicture
+  description: "SKYPICTURE est une société de prise de vue aérienne par drone. Nous intervenons dans les domaines de la production audiovisuelle, du bâtiment, de la viticulture, de la surveillance, de la photogrammétrie."
+  url: "http://www.skypicture.fr"
+
+
+features:
+  feature1_img: prise-de-vue.png
+  feature2_img: initiation-drone.png
+  feature3_img: initiation-montage.png
+  feature4_img: viticulture.png
+  feature1_text: "Prise de vue aérienne"
+  feature2_text: "Initiation au pilotage"
+  feature3_text: "Initiation au montage vidéo"
+  feature4_text: "Viticulture"
+
+
+author:
+  name: Nicolas ACARD
+  address: Aix en provence
+  phone: 0661568140
+  email: contact@skypicture.fr
+
+social:
+  facebook: "https://facebook.com/nowifisummercamp"
+  twitter: "https://twitter.com/nowifisummercamp"
+
+copyright:
+  developer:
+    name: Samuel Bourdon
+    url: "http://samuelbourdon.com"
+
+google_analytics:
+  tracking_code: "Your-tracking-code"

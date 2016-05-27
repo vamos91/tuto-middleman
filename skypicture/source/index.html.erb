@@ -1,1 +1,43 @@
-<h1>toto</h1>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/dji-inspire-1.jpg');">
+  <div class="banner-content">
+    <h1>SKYPICTURE</h1>
+    <p>Votre vue du ciel</p>
+    <p><%= link_to "Contact", "contact.html.erb", class: "btn btn-primary lg" %></p>
+  </div>
+</div>
+
+<div class="feature1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <p><%= data.settings.site.description%></p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <%= image_tag "dji-feature.jpg", class: "img-feature"%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature2 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag data.settings.features.feature1_img%>
+        <p><%= data.settings.features.feature1_text%></p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag data.settings.features.feature2_img%>
+        <p><%= data.settings.features.feature2_text%></p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag data.settings.features.feature3_img%>
+        <p><%= data.settings.features.feature3_text%></p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag data.settings.features.feature4_img%>
+        <p><%= data.settings.features.feature4_text%></p>
+      </div>
+    </div>
+  </div>
+</div>
