@@ -25,6 +25,3 @@ gem 'font-awesome-sass', '~> 4.2.0'
 gem 'middleman-autoprefixer'
 gem 'middleman-bootstrap-navbar'
 
-
-#formulaire
-gem 'simple_form'
