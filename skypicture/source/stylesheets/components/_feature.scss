@@ -6,7 +6,11 @@
 .img-feature{
   width: 100%;
   padding:0px;
+}
 
+.img-feature2{
+  width: 100%;
+  padding:0px;
 }
 
 .feature1 p{
@@ -30,6 +34,13 @@
   margin-top: 100px;
   width: 150px;
   color: white;
+}
+
+
+
+.separator{
+  border: 1px solid grey;
+  opacity:0.4;
 }
 
 
@@ -73,6 +84,11 @@
   margin:0;
 }
 
+
+.wrapper-video{
+  width:100%;
+}
+
 .wrapper-video iframe{
    width:640px;
    height:360px;
@@ -87,27 +103,77 @@ padding-right:0;
 }
 
 
+.contact-form{
+ // margin-top:150px;
+}
+
+
+
+
+
+
+
+
+//---------navbar---------------
+
+
+.navbar-sup{
+   background: #212121;
+  padding: 9px 71;
+  color: #CCCCCC;
+  height:30px;
+  padding-left: 170px;
+  }
+
+
+.navbar-sup ul {
+  //margin-top: 10px;
+}
+.navbar-sup a {
+  color: $gray-light;
+  font-size: 20px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+}
+.navbar-sup a:hover{
+  color: $yellow;
+
+}
+
+
+//-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Icon set - http://ionicons.com */
 .thumb{
   width:100%;
-margin:0;
-padding:0;
+// margin:0;
+// padding:0;
 }
 .snip1302 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 100px 0%;
+  margin: 100px 3%;
   min-width: 230px;
-  width: 328px;
+  max-width: 340px;
   //width: 100%;
   color: #ffffff;
   text-align: center;
   background-color: #000000;
-  border-spacing: 10px 50px
 }
 .snip1302 * {
   -webkit-box-sizing: border-box;
@@ -225,6 +291,11 @@ padding:0;
   -webkit-transition: all 0.35s 0.2s ease-in;
   transition: all 0.35s 0.2s ease-in;
 }
+
+
+
+
+
 
 
 
