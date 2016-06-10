@@ -9332,6 +9332,16 @@ button.close {
 .contact-form {
   z-index: 1000; }
 
+/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/skypicture/source/stylesheets/components/_bg-video.scss */
+#bg_container {
+  height: 400px;
+  overflow: hidden; }
+
+/* line 6, /Users/nicolas/code/vamos91/tuto-middleman/skypicture/source/stylesheets/components/_bg-video.scss */
+#bg {
+  width: 100%;
+  height: 720px; }
+
 /* line 1, /Users/nicolas/code/vamos91/tuto-middleman/skypicture/source/stylesheets/components/_card.scss */
 .card {
   height: 250px;
