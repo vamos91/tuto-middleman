@@ -163,12 +163,15 @@
 // margin:0;
 // padding:0;
 }
+
+.card-figure{
+  padding: 20px;
+}
 .snip1302 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
-  float: left;
   overflow: hidden;
-  margin: 100px 3%;
+  margin: auto;
   min-width: 230px;
   max-width: 340px;
   //width: 100%;
