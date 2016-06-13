@@ -1,0 +1,24 @@
+
+.vid-container{
+  margin-top:90px;
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgvid{
+  z-index:-10;
+
+  position:absolute;
+  left:0;
+  top:0;
+  width:100vw;
+}
+
+.contact-form{
+  //position:absolute;
+  z-index:1000;
+
+}

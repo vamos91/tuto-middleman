@@ -1,0 +1,45 @@
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+<div class="navbar-sup">
+  <ul class="list-inline">
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+  </ul>
+</div>
+  <div class="container">
+    <div class="navbar-header">
+<!--       <%= image_tag "logo2.png", class: "logo-navbar"%>
+ -->      <%= link_to "SKYPICTURE", "/", class: "navbar-brand" %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapsable">
+      <ul class="nav navbar-nav foo navbar-right" id="menu">
+        <li class="active">
+         <%= link_to "Home", "/" %>
+        </li>
+        <li>
+          <%= link_to "A propos de nous", "about.html" %>
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Domaines d'applications <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Audiovisuel</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Bâtiment</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Viticulture</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Surveillance</a></li>
+          </ul>
+        </li>
+        <li>
+          <%= link_to "Nos réalisations", "realisation.html.erb"%>
+        </li>
+        <li>
+          <%= link_to "Contact", "contact.html.erb"%>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
