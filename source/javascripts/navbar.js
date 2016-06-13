@@ -9,10 +9,10 @@
     $(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
       if ($(this).scrollTop() > 100) {
-        $('.navbar-sup').hide();
+        $('.navbar-sup').slideUp();
       }
       if ($(this).scrollTop() < 100) {
-        $('.navbar-sup').fadeIn();
+        $('.navbar-sup').slideDown();
         }
 
     });
