@@ -18,9 +18,12 @@
          <%= link_to "Home", "/" %>
         </li>
         <li>
-          <%= link_to "A propos de nous", "/page/about.html" %>
+          <%= link_to "A propos de nous","/index.html", anchor: "about"%>
         </li>
-         <li class="dropdown">
+        <li>
+          <%= link_to "Domaines d'applications","/index.html", anchor: "S800"%>
+        </li>
+         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Domaines d'applications <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Audiovisuel</a></li>
@@ -31,7 +34,7 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Surveillance</a></li>
           </ul>
-        </li>
+        </li> -->
         <li>
           <%= link_to "Nos réalisations", "realisation.html.erb"%>
         </li>
