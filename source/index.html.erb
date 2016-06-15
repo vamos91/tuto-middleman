@@ -2,7 +2,7 @@
   <div class="banner-content">
     <h1>SKYPICTURE</h1>
     <p>Entreprise de prise de vue aérienne par drone.</p>
-    <p><%= link_to "Contact", "/page/index.html", anchor: "#contact", class: "btn btn-primary lg" %></p>
+    <p><%= link_to "Contact", "/index.html", anchor: "contact", class: "btn btn-primary lg" %></p>
   </div>
 </div>
 
@@ -53,7 +53,7 @@
 
 
 
-<div class="wrapper-thumb">
+<div class="wrapper-thumb padded">
   <div class="container thumb">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
@@ -148,35 +148,6 @@
 
 
 
-
-
-
-
-
-
-<!--
-<div class="feature2 text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <%= image_tag data.settings.features.feature1_img%>
-        <p><strong><%= data.settings.features.feature1_text%></strong></p>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <%= image_tag data.settings.features.feature1_img%>
-        <p><strong><%= data.settings.features.feature2_text%></strong></p>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <%= image_tag data.settings.features.feature1_img%>
-        <p><strong><%= data.settings.features.feature3_text%></strong></p>
-      </div>
-    </div>
-  </div>
-</div>
- -->
-
-
-
 <div class="feature1">
   <div class="container">
     <div class="row">
@@ -200,43 +171,25 @@
 </div>
 
 
-<!--
-<div class="wrapper-matos text-center">
- <p class="title">Nous intervenons en accord avec la DGAC sur 2 scénarios.</p>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <%= image_tag "S1.jpg", class: "img-size" %>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <%= image_tag "S3.jpg", class: "img-size" %>
-      </div>
-    </div>
-  </div>
-</div>
- -->
+
 <div class="banner banner-parallax img-responsive" id="inspire2">
   <div class="banner-filter"></div>
   <div class="banner-content-parallax text-center">
   <h1>SKYPICTURE</h1>
-    <span>Domaines d'applications de nos drones</span>
+    <span>L'imagerie aérienne réinventée</span>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-3 col-sm-6">
+          <div class="col-xs-12 col-md-4">
             <i class="fa fa-video-camera" aria-hidden="true"></i>
             <p>4K</p>
           </div>
-          <div class="col-xs-12 col-md-3 col-sm-6">
+          <div class="col-xs-12 col-md-4">
             <i class="fa fa-picture-o" aria-hidden="true"></i>
             <p>30 images/seconde</p>
           </div>
-           <div class="col-xs-12 col-md-3 col-sm-6">
+           <div class="col-xs-12 col-md-4">
             <i class="fa fa-camera" aria-hidden="true"></i>
             <p>12M pixels</p>
-          </div>
-           <div class="col-xs-12 col-md-3 col-sm-6">
-            <i class="fa fa-shield" aria-hidden="true"></i>
-            <p>Surveillance</p>
           </div>
         </div>
     </div>
@@ -244,23 +197,12 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<form action="https://formspree.io/contact@skypicture.fr"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
 
 <div class="contact-form padded" id="contact">
     <div class="container">
