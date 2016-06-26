@@ -17,7 +17,7 @@
 
 
 
-<div class="wrapper-video" id="about">
+<div class="wrapper-skypicture" id="about">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-6 no-padding">
@@ -40,6 +40,7 @@
       <div class="col-xs-12 col-sm-6">
         <%= image_tag "moi.jpg", class: "avatar-xxl"%>
         <p>Cadreur professionnel</p>
+        <i>"J'aime cadrer, monter et faire de belles images"</i>
          <ul class="list-inline">
           <li><a href=""><i class="fa fa-youtube"></i></a></li>
           <li><a href=""><i class="fa fa-instagram"></i></a></li>
@@ -50,6 +51,7 @@
       <div class="col-xs-12 col-sm-6">
         <%= image_tag "chris.jpg", class: "avatar-xxl"%>
         <p>Pilote agrée DGAC</p>
+        <i>Plus de 400 heures de vol du DJI S1000</>
          <ul class="list-inline">
           <li><a href=""><i class="fa fa-youtube"></i></a></li>
           <li><a href=""><i class="fa fa-instagram"></i></a></li>
@@ -60,8 +62,6 @@
     </div>
   </div>
 </div>
-
-
 
 
 
@@ -87,15 +87,12 @@
       <div class="col-xs-12 col-sm-4">
         <div class="card-figure">
         <figure class="snip1302">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample42.jpg" alt="sample42"/>
+<!--         <%= image_tag "https://unsplash.it/430/320/?random" %>
+ -->          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample45.jpg" alt="sample42"/>
           <figcaption>
             <h2>Initiation au pilotage.</h2>
-            <div class="icons">
-              <a href="#"><i class="ion-social-reddit-outline"></i></a>
-              <a href="#"> <i class="ion-social-twitter-outline"></i></a>
-              <a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
           </figcaption>
-          <a href="#"></a>
+          <%= link_to "", "/index.html", anchor: "about"%>
         </figure>
 
         </div>
@@ -104,15 +101,11 @@
       <div class="col-xs-12 col-sm-4">
         <div class="card-figure">
         <figure class="snip1302">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample55.jpg" alt="sample55"/>
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample43.jpg" alt="sample42"/>
           <figcaption>
-            <h2>Photo et Vidéo aérienne.</h2>
-            <div class="icons">
-              <a href="#"><i class="ion-social-reddit-outline"></i></a>
-              <a href="#"> <i class="ion-social-twitter-outline"></i></a>
-              <a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+            <h2>Du matériel à la pointe.</h2>
           </figcaption>
-          <a href="#"></a>
+          <%= link_to "", "/index.html", anchor: "materiel"%>
         </figure>
         </div>
 
@@ -120,22 +113,18 @@
       <div class="col-xs-12 col-sm-4">
         <div class="card-figure">
         <figure class="snip1302">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample52.jpg" alt="sample52"/>
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample44.jpg" alt="sample42"/>
           <figcaption>
-            <h2>Intitation au montage vidéo.</h2>
-            <div class="icons">
-              <a href="#"><i class="ion-social-reddit-outline"></i></a>
-              <a href="#"> <i class="ion-social-twitter-outline"></i></a>
-              <a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+            <h2>Devis gratuit</h2>
           </figcaption>
-          <a href="#"></a>
+          <%= link_to "", "/index.html", anchor: "contact"%>
         </figure>
         </div>
-
       </div>
     </div>
   </div>
 </div>
+
 
 
 
@@ -177,8 +166,9 @@
 
 
 
-<div class="feature1">
+<div class="feature1" id="materiel">
   <div class="container">
+    <p><%= data.materiel.drone.inspire.intro%></p>
     <div class="row text1">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <p><%= data.materiel.drone.inspire.camera%></p>
@@ -232,13 +222,13 @@
             method="POST">
           <div class="form-group">
                   <div class="col-sm-12">
-                    <input type="text" class="form-control" name="name" id="inputEmail3" placeholder="Your name"" ">
+                    <input type="text" class="form-control" name="name" id="inputEmail3" placeholder="Mon nom"" ">
                   </div>
                 </div>
               <div class="form-group">
 
                   <div class="col-xs-12">
-                    <input type="text" class="form-control" name="subject" id="inputEmail3" placeholder="Subject">
+                    <input type="text" class="form-control" name="subject" id="inputEmail3" placeholder="Sujet">
                   </div>
 
                 </div>
@@ -251,12 +241,12 @@
                 <div class="form-group">
 
                   <div class="col-xs-12">
-                    <textarea type="text" class="form-control" name="message" id="inputText" rows="10" placeholder="Contact us !"></textarea>
+                    <textarea type="text" class="form-control" name="message" id="inputText" rows="10" placeholder="Lieux de tournage, durée du tournage, budget, etc..."></textarea>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-xs-12">
-                    <button type="submit" class="btn btn-primary">Send my email</button>
+                    <button type="submit" class="btn btn-primary">Envoyer le mail</button>
                   </div>
                 </div>
               </form>

@@ -1,15 +1,24 @@
-<div class="footer text-center">
-  <h2><%= data.settings.site.title.upcase%></h2>
-  <div class="settings">
-    <p> <%= data.settings.author.name %></p>
-    <p> <%= data.settings.author.address %></p>
-    <p> <%= data.settings.author.phone %></p>
-    <p> <%= data.settings.author.email %></p>
-  </div>
- <ul class="list-inline">
+<div class="footer">
+ <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <% data.settings.each do |x, setting| %>
+      <p><%= setting.name %></p>
+      <p><%= setting.address %></p>
+      <p><%= setting.phone %></p>
+      <p><%= setting.email %></p>
+    <% end %>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <ul class="list-inline">
           <li><a href=""><i class="fa fa-youtube"></i></a></li>
           <li><a href=""><i class="fa fa-instagram"></i></a></li>
           <li><a href=""><i class="fa fa-facebook"></i></a></li>
           <li><a href=""><i class="fa fa-twitter"></i></a></li>
   </ul>
+    </div>
+  </div>
 </div>
+</div>
+
+

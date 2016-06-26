@@ -85,7 +85,7 @@
 }
 
 
-.wrapper-video{
+.wrapper-skypicture{
   width:100%;
 }
 
@@ -94,24 +94,6 @@
   padding-right: 0;
   margin-bottom:-6px;
 }
-
-
-// .no-space-left{
-// padding-right:0;
-// }
-
-// .no-space-right{
-//   padding-left:0;
-// }
-
-
-.contact-form{
- // margin-top:150px;
-}
-
-
-
-
 
 
 
@@ -283,7 +265,6 @@
   margin: auto;
   min-width: 230px;
   max-width: 340px;
-  //width: 100%;
   color: #ffffff;
   text-align: center;
   background-color: #000000;
@@ -347,7 +328,7 @@
   top: 0;
   right: 0;
   content: '';
-  background-color: #166337;
+  background-color: #6088a3;
   z-index: 1;
   opacity: 0.4;
   -webkit-transition: all 0.35s 0.3s ease-in;
@@ -364,7 +345,7 @@
   height: 0;
   border-style: solid;
   border-width: 200px 0 200px 200px;
-  border-color: transparent transparent transparent #166337;
+  border-color: transparent transparent transparent #212121;
   opacity: 0.9;
   -webkit-transition: all 0.35s 0s ease-out;
   transition: all 0.35s 0s ease-out;
