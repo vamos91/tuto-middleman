@@ -9,7 +9,7 @@
 
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
-
+activate :sprockets
 ###
 # Page options, layouts, aliases and proxies
 ###

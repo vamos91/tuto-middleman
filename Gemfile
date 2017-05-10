@@ -21,6 +21,7 @@ gem 'middleman-deploy', '~> 1.0'
 gem 'jquery-middleman'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'font-awesome-sass', '~> 4.2.0'
+gem 'middleman-sprockets', '~> 4.0.x'
 
 # CSS performance
 gem 'middleman-autoprefixer'
@@ -28,3 +29,5 @@ gem 'middleman-bootstrap-navbar'
 gem 'rack-contrib', '~> 1.1.0'
 gem 'puma',      '~> 2.7'
 gem 'rake',      '~> 10.1'
+
+

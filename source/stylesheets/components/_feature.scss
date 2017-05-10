@@ -37,6 +37,23 @@
 }
 
 
+.feature img{
+  width: 100px;
+}
+
+.feature h2{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.feature p{
+  color: gray;
+
+}
+
+.feature-service img{
+  width: 160px;
+}
 
 .separator{
   margin-top: 30px;
@@ -44,6 +61,11 @@
   opacity:0.4;
 }
 
+
+.title-feature strong{
+  font-size: 55px;
+  color: gray;
+}
 
 .wrapper-matos{
   width:100%;
