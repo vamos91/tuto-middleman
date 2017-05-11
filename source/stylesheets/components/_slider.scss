@@ -1,0 +1,22 @@
+.titre-banner{
+  // position: absolute;
+  // top: 50px;
+  // left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre-banner h1{
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.titre-banner p{
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: left;
+}
+
+
+

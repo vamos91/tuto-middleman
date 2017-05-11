@@ -5,23 +5,67 @@
     <li data-target="#mycarousel" data-slide-to="1"></li>
     <li data-target="#mycarousel" data-slide-to="2"></li>
     <li data-target="#mycarousel" data-slide-to="3"></li>
+    <li data-target="#mycarousel" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
  <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <%= image_tag "immobilier-drone.jpg" %>
-      <div class="carousel-caption">
-        ...
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/dji-inspire-1.jpg');">
+      <div class="banner-content banner-home">
+        <%= image_tag "logo-drone.png" %>
+          <h4>DRONE QUADCOPTER 4K</h4>
+          <h1>SKYPICTURE</h1>
+        <p>Prise de vue aérienne par drone.</p>
+        <p><%= link_to "Demandez un devis", "/index.html", anchor: "contact", class: "btn btn-primary btn-lg" %></p>
+
       </div>
+</div>
     </div>
     <div class="item">
       <%= image_tag "immobilier-drone.jpg" %>
       <div class="carousel-caption">
-        ...
+        <div class="banner-content">
+        <div class="titre-banner">
+          <h1>PROMOTION IMMOBILIERE</h1>
+        </div>
+        <p>Villas, Mas, Maison de luxe, etc...</p>
+      </div>
       </div>
     </div>
-    ...
+       <div class="item">
+      <%= image_tag "suivis-chantier.jpg" %>
+      <div class="carousel-caption">
+        <div class="banner-content">
+        <div class="titre-banner">
+          <h1>SUIVIS DE CHANTIER</h1>
+        </div>
+        <p>Photos aériennes de suisvis de chantier</p>
+      </div>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag "mariage.jpeg" %>
+      <div class="carousel-caption">
+        <div class="banner-content">
+        <div class="titre-banner">
+          <h1>EVENEMENT ET MARIAGE</h1>
+        </div>
+        <p>Mariage, lancement de produit, incentive, CE, etc...</p>
+      </div>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag "tourisme.jpg" %>
+      <div class="carousel-caption">
+        <div class="banner-content">
+        <div class="titre-banner">
+          <h1>TOURISME ET CULTURE</h1>
+        </div>
+        <p></p>
+      </div>
+      </div>
+    </div>
   </div>
 
 
@@ -37,7 +81,7 @@
 </div>
 
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/dji-inspire-1.jpg');">
+<!-- <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/dji-inspire-1.jpg');">
   <div class="banner-content">
     <%= image_tag "logo-drone.png" %>
     <div class="titre-banner">
@@ -46,10 +90,8 @@
     </div>
     <p>Prise de vue aérienne par drone.</p>
     <p><%= link_to "Demandez un devis", "/index.html", anchor: "contact", class: "btn btn-primary btn-lg" %></p>
-    <!-- <div class="arrow"></div> -->
   </div>
-</div>
-
+</div> -->
 
 <div class="wrapper padded text-center">
   <div class="title-feature">

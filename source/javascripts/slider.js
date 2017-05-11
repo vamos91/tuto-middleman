@@ -24,7 +24,7 @@ $(window).on('resize', function (){
 });
 
 $('.carousel').carousel({
-  interval: 6000,
+  interval: 4000,
   pause: "false"
 });
 });
