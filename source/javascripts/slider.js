@@ -24,8 +24,8 @@ $(window).on('resize', function (){
 });
 
 $('.carousel').carousel({
-  interval: 4000,
-  pause: "false"
+  interval: 10000,
+  pause: "true"
 });
 });
   }(jQuery));

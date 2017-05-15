@@ -101,7 +101,7 @@
   <div class="feature-service">
     <%= image_tag "logo-drone.png"%>
   </div>
-    <div class="row">
+    <div class="row fadeDown">
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="feature">
         <%= image_tag "reportage.png" %>
@@ -127,7 +127,7 @@
         </div>
       </div>
     </div>
-    <p><div class="row">
+    <p><div class="row fadeDown">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div class="feature">
            <%= image_tag "clip.png" %>
@@ -146,17 +146,18 @@
       </div>
     </div></p>
   </div>
-  <%= image_tag "mavic.jpg" %>
+  <%= image_tag "mavic.jpg", class: "opacity" %>
 </div>
+
 
 
 <div class="wrapper-skypicture" id="about">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-md-6 no-padding">
+      <div class="col-xs-12 col-md-6 no-padding fadeLeft">
         <iframe src="https://player.vimeo.com/video/142608531?autoplay=1&title=0&byline=0&portrait=0" width="100%" height="350px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
-       <div class="col-xs-12 col-md-6 no-padding">
+       <div class="col-xs-12 col-md-6 no-padding fadeRight">
         <div class="text-feature">
            <p>"Skypicture est une société de prise de vues aériennes <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">agrée DGAC</button> basée en Provence, mettant en oeuvre des DRONES dernières générations. Nous intervenons dans les secteurs de <strong>l'immobilier, du bâtiment, de l'événementiel, du film institutionnel, de la viticulture et de la surveillance.</strong>"
 
@@ -216,7 +217,7 @@
 
 <div class="banner banner-parallax img-responsive" id="inspire2">
   <div class="banner-filter"></div>
-  <div class="banner-content-parallax text-center">
+  <div class="banner-content-parallax text-center fadeLeftLong">
   <h1>SKYPICTURE</h1>
     <span>L'imagerie aérienne réinventée</span>
       <div class="container">
@@ -278,18 +279,6 @@
   <span><i>"Le meilleur de la photo-vidéo aérienne haute définition par drone."</i></span>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="wrapper-thumb padded">
   <div class="container thumb">
     <div class="row">
@@ -343,7 +332,7 @@
 <div class="feature1" id="materiel">
   <div class="container">
     <p><%= data.materiel.drone.inspire.intro%></p>
-    <div class="row text1">
+    <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <p><%= data.materiel.drone.inspire.camera%></p>
       </div>
@@ -351,7 +340,7 @@
         <%= image_tag "dji-feature.jpg", class: "img-feature"%>
       </div>
     </div>
-    <div class="row text2">
+    <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <%= image_tag "mavic.jpg", class: "img-feature2"%>
       </div>
