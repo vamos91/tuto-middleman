@@ -13,7 +13,7 @@ sr.reveal('.fadeDown', {origin: 'top', delay: 600, reset: false});
 sr.reveal('.fadeLeft', {origin: 'left',delay: 600, reset: false});
 sr.reveal('.fadeRight', {origin: 'right', duration: 1000, delay: 600, reset: false});
 sr.reveal('.opacity', {opacity: 0, delay: 600, reset: false});
-sr.reveal('.fadeLeftLong', {origin: 'left', distance: '100px',duration: 7000, reset: false});
+sr.reveal('.fadeLeftLong', {origin: 'left', distance: '100px',duration: 1000, reset: false});
 
 
 });
