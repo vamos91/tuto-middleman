@@ -2,7 +2,7 @@
 
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCdcrwCTRbeNmrQP_5m6uApSo5jiWe-MP8"></script>
 <script type="text/javascript">
 var myLatlng = new google.maps.LatLng(43.5283000,5.4497300
 );
@@ -21,4 +21,13 @@ var marker = new google.maps.Marker({
   map: map,
   title:"You are here!"
 });
+marker.addListener('click', function() {
+    infowindow.open(map,marker);
+    video.close(map, marker);
+});
+  marker.addListener('rightclick', function() {
+    infowindow.close(map,marker);
+    video.open(map, marker);
+});
 </script>
+
