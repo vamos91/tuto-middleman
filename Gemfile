@@ -27,7 +27,5 @@ gem 'middleman-sprockets', '~> 4.0.x'
 gem 'middleman-autoprefixer'
 gem 'middleman-bootstrap-navbar'
 gem 'rack-contrib', '~> 1.1.0'
-gem 'puma',      '~> 2.7'
 gem 'rake',      '~> 10.1'
-
 

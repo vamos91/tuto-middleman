@@ -105,7 +105,6 @@ GEM
     padrino-support (0.12.8.1)
       activesupport (>= 3.1)
     ptools (1.3.3)
-    puma (2.16.0)
     rack (1.6.6)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -151,14 +150,13 @@ DEPENDENCIES
   middleman-bootstrap-navbar
   middleman-deploy (~> 1.0)
   middleman-sprockets (~> 4.0.x)
-  puma (~> 2.7)
   rack-contrib (~> 1.1.0)
   rake (~> 10.1)
   tzinfo-data
   wdm (~> 0.1.0)
 
 RUBY VERSION
-   ruby 2.3.0p0
+   ruby 2.5.0p0
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
