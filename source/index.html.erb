@@ -12,13 +12,32 @@
  <div class="carousel-inner" role="listbox">
     <div class="item active">
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/dji-inspire-1.jpg');">
-      <div class="banner-content banner-home">
-        <%= image_tag "logo-drone.png" %>
-          <h4>DRONE QUADCOPTER 4K</h4>
-          <h1>SKYPICTURE</h1>
+      <div class="banner-content">
+<!--         <%= image_tag "logo-drone.png" %>
+ -->     <div class="banner-home">
+           <h1>SKYPICTURE</h1>
+          <h4 style="margin-top: -20px;">DRONE QUADCOPTER 4K</h4>
         <p>Prise de vue aérienne par drone.</p>
         <p><%= link_to "Demandez un devis", "/index.html", anchor: "contact", class: "btn btn-primary btn-lg" %></p>
+        <p>Depuis 2014, nous réalisons des prises de vues pour une production audiovisuelle de qualité.</p>
+        </div>
 
+        <div class="container">
+        <div class="row fadeRight" style="margin-top: 80px; font-size: 30px;">
+          <div class="col-xs-12 col-md-4">
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
+            <p>Vos images en 4K</p>
+          </div>
+          <div class="col-xs-12 col-md-4 tag2">
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <p>Montage vidéo de qualité</p>
+          </div>
+           <div class="col-xs-12 col-md-4">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <p>Des professionnels expérimentés</p>
+          </div>
+        </div>
+    </div>
       </div>
 </div>
     </div>
@@ -83,11 +102,12 @@
 
 
 <div class="title text-center">
-  <span><i>"Un matériel à la pointe..."</i></span>
-</div>
-<div class="text-center">
   <%= image_tag "logo.jpg"%>
 </div>
+<!-- <div class="title text-center">
+  <span><i>"Un matériel à la pointe..."</i></span>
+</div>
+
 <div class="feature1" id="materiel">
   <div class="container">
     <p><%= data.materiel.drone.inspire.intro%></p>
@@ -109,7 +129,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <div class="wrapper padded text-center">
@@ -160,7 +180,7 @@
         <div class="feature">
           <i class="fa fa-heart icone-feature"></i>
           <h2>MARIAGE & EVENEMENT</h2>
-          <p>Skyîcture intervient pour la réalisation de prises de vues aériennes par Drone pour votre mariage et votre événement, lancement de produit, incentive, CE, etc...</p>
+          <p>Skyicture intervient pour la réalisation de prises de vues aériennes par Drone pour votre mariage et votre événement, lancement de produit, incentive, CE, etc...</p>
           <%= link_to 'En savoir plus', "../page/realisation.html", class: "btn btn-default" %>
         </div>
       </div>
@@ -173,7 +193,7 @@
 <div class="wrapper-skypicture" id="about">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-md-6 no-padding fadeLeft">
+      <div class="col-xs-12 col-md-6 no-padding" style="padding: 11px; color: white;">
          <%= image_tag "moi.jpg", class: "avatar-xxl"%>
         <p>Télépilote et cadreur professionnel</p>
         <i>"J'aime cadrer, monter et faire de belles images"</i>
@@ -184,7 +204,7 @@
           <li><a href=""><i class="fa fa-twitter"></i></a></li>
         </ul>
       </div>
-       <div class="col-xs-12 col-md-6 no-padding fadeRight">
+       <div class="col-xs-12 col-md-6 no-padding">
         <div class="text-feature">
            <p>"Skypicture est une société de prise de vues aériennes <strong>agrée DGAC</strong> basée en Provence, mettant en oeuvre des DRONES dernières générations. Nous intervenons dans les secteurs de <strong>l'immobilier, du bâtiment, de l'événementiel, du film institutionnel.</strong>"
 
@@ -303,41 +323,13 @@
 
 
 
-<div class="title text-center">
-  <span><i>"Un matériel à la pointe..."</i></span>
-</div>
-<div class="text-center">
-  <%= image_tag "logo.jpg"%>
-</div>
-<div class="feature1" id="materiel">
-  <div class="container">
-    <p><%= data.materiel.drone.inspire.intro%></p>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <p><%= data.materiel.drone.inspire.camera%></p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <%= image_tag "dji-feature.jpg", class: "img-feature"%>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <%= image_tag "mavic.jpg", class: "img-feature2"%>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <p><%= data.materiel.drone.inspire.nacelle%></p>
-        <%= link_to "En savoir plus.", "https://www.youtube.com/watch?v=p1d_ptE6yrc", class: "btn btn-primary"%>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="wrapper-price padded text-center" id="price">
   <div class="container-fluid">
     <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <%= image_tag "logo.jpg" %>
+      <%= image_tag "mavic.jpg", class: "img-feature2"%>
       <div class="caption">
         <h3>Forfait photos</h3>
         <h2>150€</h2>
@@ -350,7 +342,7 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <%= image_tag "logo.jpg" %>
+      <%= image_tag "mavic.jpg", class: "img-feature2"%>
       <div class="caption">
         <h3>Forfait vidéo demi-journée</h3>
         <h2>A partir de 550€</h2>
@@ -364,7 +356,7 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <%= image_tag "logo.jpg" %>
+      <%= image_tag "mavic.jpg", class: "img-feature2"%>
       <div class="caption">
         <h3>Forfait video à la journée</h3>
         <h2>A partir de 900€</h2>
@@ -418,7 +410,7 @@
                 </div>
                 <div class="form-group">
                   <div class="col-xs-12">
-                    <button type="submit" class="btn btn-primary">Envoyer le mail</button>
+                    <button type="submit" class="btn btn-primary">ENVOYER</button>
                   </div>
                 </div>
               </form>
