@@ -29,3 +29,4 @@ gem 'middleman-bootstrap-navbar'
 gem 'rack-contrib', '~> 1.1.0'
 gem 'rake',      '~> 10.1'
 
+gem 'puma'
